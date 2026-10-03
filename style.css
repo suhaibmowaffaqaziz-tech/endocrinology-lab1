@@ -1,0 +1,95 @@
+﻿/* تنسيق الأزرار وحجب التأثيرات البصرية المزعجة */
+.opt-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff !important; 
+    border: 1px solid #cccccc !important; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    color: #000000 !important;
+    
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important; 
+}
+
+.opt-btn:focus, 
+.opt-btn:active, 
+.opt-btn:visited,
+.opt-btn:target {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #cccccc !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #000;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+* {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+#timer {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'Cairo', sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.start-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.start-btn:hover {
+    background: #218838;
+}

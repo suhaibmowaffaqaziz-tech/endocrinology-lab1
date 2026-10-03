@@ -1,0 +1,22 @@
+﻿const questions = [
+    { q: "What is another name for Growth Hormone (GH)?", o: ["Insulin", "Somatotropin", "Thyroxine", "Cortisol"], a: 1 },
+    { q: "Growth hormone (GH) is produced by the:", o: ["Thyroid gland", "Adrenal gland", "Anterior pituitary gland", "Pancreas"], a: 2 },
+    { q: "One of the major functions of GH is:", o: ["Blood clotting", "Body growth", "Bile secretion", "Calcium excretion"], a: 1 },
+    { q: "GH is important for:", o: ["Protein synthesis and metabolism", "Blood coagulation only", "Urine formation only", "Digestion of fats only"], a: 0 },
+    { q: "The practical aim of the GH test is to:", o: ["Measure glucose in urine", "Estimate GH concentration in serum", "Measure hemoglobin concentration", "Determine blood group"], a: 1 },
+    { q: "Which specimen is commonly used for GH estimation?", o: ["Urine", "Saliva", "Serum", "Cerebrospinal fluid"], a: 2 },
+    { q: "GH can be measured using:", o: ["Immunoassay", "Gram staining", "Urinalysis", "Blood grouping"], a: 0 },
+    { q: "Which of the following is an immunoassay method that can be used to measure GH?", o: ["ELISA", "PCR", "Gram stain", "Electrophoresis"], a: 0 },
+    { q: "Another immunoassay method used for GH measurement is:", o: ["CLIA", "CBC", "ESR", "HPLC"], a: 0 },
+    { q: "In a sandwich immunoassay, GH in the serum binds to:", o: ["Glucose molecules", "Specific antibodies", "Red blood cells", "Lipids"], a: 1 },
+    { q: "In a sandwich immunoassay, the labeled antibody produces a:", o: ["Measurable signal", "Blood clot", "Gas", "Cell culture"], a: 0 },
+    { q: "The strength of the signal in the immunoassay is related to:", o: ["The patient's blood group", "The amount of GH in the sample", "The number of red blood cells", "The amount of hemoglobin"], a: 1 },
+    { q: "GH concentration is determined by comparing the sample result with:", o: ["A Gram stain", "A standard or calibration curve", "A blood film", "A reference microscope slide"], a: 1 },
+    { q: "Which of the following is required for GH estimation?", o: ["GH standards or calibrators", "Antibiotic discs", "Blood culture bottles", "Gram-positive bacteria"], a: 0 },
+    { q: "After adding the required reagents, the reaction is allowed to:", o: ["Freeze", "Develop", "Evaporate completely", "Boil"], a: 1 },
+    { q: "If the serum sample is diluted, the GH concentration is calculated using:", o: ["Concentration from the calibration curve ÷ dilution factor", "Concentration from the calibration curve × dilution factor", "Dilution factor − concentration", "Concentration + dilution factor"], a: 1 },
+    { q: "GH secretion from the pituitary gland is:", o: ["Continuous", "Pulsatile", "Absent during sleep", "Constant throughout life"], a: 1 },
+    { q: "Which test is often useful for assessing the overall effect of GH?", o: ["IGF-1", "Hemoglobin", "Bilirubin", "Creatinine"], a: 0 },
+    { q: "Increased GH levels in adults may be associated with:", o: ["Acromegaly", "Diabetes insipidus", "Anemia", "Hypothyroidism"], a: 0 },
+    { q: "Increased GH levels in children may be associated with:", o: ["Acromegaly", "Gigantism", "GH deficiency", "Dwarfism"], a: 1 }
+];
